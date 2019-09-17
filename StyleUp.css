@@ -1,0 +1,204 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Californian FB';
+}
+
+
+.container-fluid {
+    width: 100vw;
+    height: 130vh;
+    background-size: 100%;
+    background-image: url('bgimage/luxury-silver-pen-with-a-business-diary_free_stock_photos_picjumbo_IMG_3242-2210x1473.jpg');
+}
+
+
+    .container-fluid nav a {
+        text-decoration: none;
+        font-size: 3vw;
+        color: white;
+    }
+
+    .container-fluid nav .btn {
+        float: right;
+        background-color: #fff568;
+        border: 0;
+        color: black;
+        font-size: 1.5vw;
+    }
+
+
+
+.cols1 {
+    margin-top: 4vh;
+}
+
+.mydropdownlist
+{
+color: black;
+font-size: 20px;
+padding: 7px 7px;
+border-radius: 5px;
+background-color: #efe63e;
+font-weight: bold;
+margin-left:1350px;
+}
+
+.mydropdownlist1
+{
+color: black;
+font-size: 40px;
+border-radius: 5px;
+background-color: #efe63e;
+font-weight: bold;
+margin-left:210px;
+padding-left: 0vw;
+padding-right: 0vw;
+}
+
+.col-6 h1 {
+    margin-left: 11vw;
+    font-size: 5vw;
+    color: white;
+    margin-bottom:10vh;
+}
+
+.col-6 input[type=text] {
+    margin-left: 11vw;
+    width: 37vw;
+    border: 0;
+    border-bottom: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    background-color: transparent;
+    padding-top: 2vh;
+    color:#000000;
+    margin-top: 4vh;
+    font-size: 3vw;
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
+
+.col-6 input[type=password] {
+    margin-left: 11vw;
+    width: 37vw;
+    border: 0;
+    border-bottom: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    background-color: transparent;
+    padding-top: 2vh;
+    color:#000000;
+    margin-top: 4vh;
+    font-size: 3vw;
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
+
+
+
+
+
+.col-6 input [type=text]::-webkit-input-placeholder {
+    color: #000000 !important;
+    font-size: 3vw;
+    opacity: 1;
+}
+
+.col-6 input [type=password]::-webkit-input-placeholder {
+    color: black !important;
+    font-size: 3vw;
+    opacity: 1;
+}
+
+
+
+.col-6 input[type=submit] {
+    color: black;
+    background-color: #fff568;
+    margin-left: 24vw;
+    font-size: 1.5vw;
+}
+
+.col-6 p {
+    /*color: white;*/
+    font-size: 10vh;
+    padding-left: 8vw;
+    padding-top: 15vh;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+.container {
+    font-size: 10vh;
+    padding-left: 0vw;
+    padding-top: 15vh;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%,-50%)
+}
+
+.container span{
+    text-transform:uppercase;
+    display:block;
+}
+
+.text1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    position: relative;
+    animation: text 3s 1;
+    
+}
+
+.text2 {
+    font-size: 100px;
+    color: #ffffff;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+@-webkit-keyframes glow {
+   from {
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+   }
+
+    to {
+            text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+@-webkit-keyframes animRipple {
+
+  to {
+            -webkit-transform: scale(3.5);
+            transform: scale(3.5);
+            opacity: 0;
+  }
+}
+
+@keyframes text{
+    0%{
+        color:black;
+        margin-bottom:-40px;
+    }
+    30% {
+        letter-spacing:25px;
+        margin-bottom: -40px;
+    }
+    85% {
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}

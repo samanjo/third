@@ -1,0 +1,143 @@
+﻿body {
+    margin:0;
+    padding:0;
+}
+
+*{
+    font-family:'Californian FB';
+}
+
+
+.container-fluid {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('bgimage/564685087.jpeg');
+    background-size: 100%;
+}
+
+
+.container-fluid nav a {
+    text-decoration:none;
+    font-size:3vw;
+    color:white;
+}
+
+.container-fluid nav .btn{
+    float:right;
+    background-color:#fff568;
+    border:0;
+    color:black;
+    font-size:1.5vw;
+}
+
+.mydropdownlist
+{
+color: black;
+font-size: 20px;
+padding: 7px 7px;
+border-radius: 5px;
+background-color: #efe63e;
+font-weight: bold;
+margin-left:1350px;
+}
+
+.cols1{
+    margin-top:12vh;
+}
+
+.col-6 input[type=text]{
+    margin-left: 11vw;
+    width: 37vw;
+    border: 0;
+    border-bottom: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    background-color:transparent;
+    padding-top:2vh;
+    color:white;
+    margin-top:4vh;
+    font-size:3vw;
+    padding-left:7vw;
+    padding-right:7vw;
+
+}
+
+.col-6 input[type=password] {
+    margin-left: 11vw;
+    width: 37vw;
+    border: 0;
+    border-bottom: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    background-color: transparent;
+    padding-top: 2vh;
+    color: white;
+    margin-top: 4vh;
+    font-size: 3vw;
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
+
+.col-6 label {
+    padding-left: 12vw;
+    padding-right: 12vw;
+    color:white;
+}
+
+.col-6 h1 {
+    margin-left: 11vw;
+    font-size: 7vw;
+    color: white;
+    margin-bottom: 10vh;
+}
+
+
+.col-6 input [type=text]::-webkit-input-placeholder{
+    color:white !important;
+    font-size:3vw;
+}
+
+.col-6 input [type=password]::-webkit-input-placeholder {
+    color:white !important;
+    font-size: 3vw;
+}
+
+
+
+.col-6 input[type=submit]{
+    color:black;
+    background-color:#fff568;
+    margin-left:24vw;
+    font-size:1.5vw;
+}
+.col-6 p {
+    color: white;
+    font-size: 10vh;
+    padding-left: 8vw;
+    padding-top: 32vh;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+@-webkit-keyframes animRipple {
+
+    to {
+        -webkit-transform: scale(3.5);
+        transform: scale(3.5);
+        opacity: 0;
+    }
+}
